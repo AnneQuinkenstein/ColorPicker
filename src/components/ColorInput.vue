@@ -21,7 +21,10 @@ const swapColors = () => {
   <input id="secondColor" type="color" v-model="modelSecondColor">
   <input type="text" v-model="modelSecondColor">
 
-  <button type="button" @click="swapColors">Swap Color</button>
+
+ <div>
+   <button type="button" @click="swapColors">Swap Color</button>
+ </div>
 
 </template>
 
